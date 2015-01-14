@@ -64,6 +64,10 @@ function multiply (x,y){
  * @param {number} y
  * @return {number} the quotient
  */
+function divide (x,y){
+  sum = (x / y);
+  return sum;
+}
 
 /**
  * Multiplies a number by itself.

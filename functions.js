@@ -32,7 +32,7 @@ function decrease (number){
  * @return {number} the sum
  */
 function add (x,y){
-  var sum = (x+y);
+  var sum = (x + y);
   return sum; 
 }
 
@@ -42,6 +42,10 @@ function add (x,y){
  * @param {number} y
  * @return {number} the difference
  */
+function subtract (x,y){
+  var sum = (x - y);
+  return sum;
+}
 
 /**
  * Multiplies two numbers.

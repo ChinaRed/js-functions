@@ -25,13 +25,16 @@ function decrease (number){
   return number -= 1;
 }
 
-
 /**
  * Adds two numbers.
  * @param {number} x
  * @param {number} y
  * @return {number} the sum
  */
+function add (x,y){
+  var sum = (x+y);
+  return sum; 
+}
 
 /**
  * Subtracts the second number from the first.

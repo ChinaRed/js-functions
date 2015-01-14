@@ -207,6 +207,20 @@ function isEven (number){
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
+ function letterGrade (score, total){
+  var result = (score / total) * 100;
+  if (result >= 90){
+    return ("A"); 
+  } else if (result < 90 && result >= 80){
+    return ("B");
+  } else if (result < 80 && result >= 70){
+    return ("C");
+  } else if (result < 70 && result >= 60){
+    return ("D");
+  } else if (result < 60){
+    return ("F");
+  }
+ }
 
 /**
  * Checks if a `restaurant` object has are `views` field.
@@ -214,6 +228,7 @@ function isEven (number){
  * set itsreviews` field to 1.
  * @param {object} restaurant represents a restaurant
  */
+
 
 /**
  * Joins two strings with a space.

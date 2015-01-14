@@ -88,6 +88,26 @@ function divide (x,y){
  * @return {number} the result
  */
 
+function calculate (operation,x,y){
+  if (operation === "add"){
+    sumAdd = x + y;
+    console.log(x + " + " + y + " = " + sumAdd);
+    return sumAdd;
+  } else if (operation === "subtract"){
+    sumSub = x - y;
+    console.log (x + " - " + y + " = " + sumSub);
+    return sumSub;
+  } else if (operation === "multiply"){
+    sumMult = x * y;
+    console.log (x + " * " + y + " = " + sumMult);
+    return sumMult;
+  } else if (operation === "divide"){
+    sumDiv = x / y;
+    console.log (x + " / " + y + " = " + sumDiv);
+    return sumDiv;
+  }
+}
+
 /**
  * Returns true if `a` is greater than `b`.
  * @param {number} a

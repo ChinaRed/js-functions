@@ -175,12 +175,26 @@ function isLessThan (a,b){
  * @param {number} n
  * @return {boolean} the number is even
  */
+function isEven (number){
+  if (number % 2 === 0){
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /**
  * Returns true if `n` is odd.
  * @param {number} n
  * @return {boolean} the number is odd
  */
+ function isOdd (number){
+  if (number % 1 === 0){
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /**
  * Returns a letter grade.

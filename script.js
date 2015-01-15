@@ -6,17 +6,19 @@ function runAfterTests() {
    */
 
   // Create a variable called `myNumber`, and assign it to any number
-
+var myNumber = 88;
   /**
    * Create another variable called `stringValue`.
    * Assign it the value that's returned when you pass
    * `myNumber into the function `numberToString`.
    */
+var stringValue = "88";
 
   /**
    * If you pass `myNumber` and `stringValue` into `areEqual`,
    * what value will you get back? Why is that?
    */
+   false because 88 is a number and "88" is a string
 
   /**
    * You may have noticed that the `calculate` function combined
